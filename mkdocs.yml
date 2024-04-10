@@ -17,11 +17,11 @@ site_dir: public
 site_url: "https://ekieffer.github.io/oneAPI-FPGA"
 
 # Repository
-repo_name: ekieffer/oneAPI-FPGA
-repo_url: https://github.com/ekieffer/oneAPI-FPGA
+repo_name: LuxProvide/oneAPI-FPGA
+repo_url: https://github.com/LuxProvide/oneAPI-FPGA
 
 # Copyright
-copyright: Copyright &copy; 2023 E. Kieffer
+copyright: Copyright &copy; 2023 LuxProvide
 
 
 # Configuration
@@ -29,6 +29,9 @@ copyright: Copyright &copy; 2023 E. Kieffer
 
 theme:
   name: material
+  logo: assets/LuxProvide_logo_white.svg
+  favicon: assets/favicon.png
+  custom_dir: overrides
   language: en
     #  palette:
     #    primary: blue
@@ -47,13 +50,6 @@ plugins:
   - progress
   - include-markdown
 
-# Extras
-extra:
-  social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/ULHPC
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/ULHPC
 
 # Extra stylesheets (incl. Twitter Bootstrap)
 extra_css:
@@ -88,9 +84,9 @@ markdown_extensions:
   # - Material Design: https://materialdesignicons.com/
   # - FontAwesome:     https://fontawesome.com/icons?d=gallery&m=free
   # – Octicons:        https://octicons.github.com/
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+  # - pymdownx.emoji:
+  #     emoji_index: !!python/name:materialx.emoji.twemoji
+  #     emoji_generator: !!python/name:materialx.emoji.to_svg
   # auto-link HTML, FTP, and email links
   - pymdownx.magiclink:
       repo_url_shorthand: true

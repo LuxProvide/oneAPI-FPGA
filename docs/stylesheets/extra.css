@@ -1,11 +1,68 @@
-/*
-   Time-stamp: <Sun 2021-02-07 22:20 svarrette>
-   Extra CSS configuration of the ULHPC Technical Documentation website
- */
-
-.md-typeset ul li li{
-    list-style: circle;
+/* Logo sizing */
+.md-header-nav__button.md-logo>img {
+    margin: .2rem;
+    padding: .4rem;
+    width : 4.5rem;
+    height: 2.3rem;
+    top: 50%; 
+    position: relative;
 }
-.md-typeset ul li li li{
-    list-style: square;
+
+/* LuxConnect's colors */
+:root {
+    --md-primary-fg-color: #26275a;
+    --md-accent-fg-color: #3fc0f0;
+}
+
+.md-content a {
+    color: #4b4db3;
+    text-decoration: underline; 
+}
+
+.md-content article {
+    font-size: 0.75rem; /* default text size is too large */
+    text-align: justify;
+}
+
+.footer-logo {
+    margin: auto;
+}
+
+
+
+details {
+  display: block;
+}
+
+details[open] > summary::before {
+  content: "\25BC";
+}
+
+details summary {
+  display: block;
+  cursor: pointer;
+}
+
+details summary:focus {
+  outline: none;
+}
+
+details summary::before {
+  content: "\25B6";
+  padding-right: 0.5em;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Attach the "no-details" class to details tags
+   in browsers that do not support them to get
+   open/show functionality. */
+details.no-details:not([open]) > * {
+  display: none;
+}
+
+details.no-details:not([open]) summary {
+  display: block;
 }
