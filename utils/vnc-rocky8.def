@@ -34,9 +34,9 @@ From: rockylinux:8
 
 
 %labels
-    Container ulhpc-rocky8-xfce4
+    Container rocky8-xfce4
     Author hpc-team@uni.lu
-    Version 2023-08-02
+    Version 2024-04-10
 
 %help
-    ULHPC reference Singularity container.
+    Singularity container.

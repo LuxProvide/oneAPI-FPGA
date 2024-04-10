@@ -15,14 +15,6 @@ c. repeat the following morning when you come back to the office.
 
 Enter the long-existing and very simple, but totally indispensable [GNU screen](http://www.gnu.org/software/screen/) command. It has the ability to completely detach running processes from one terminal and reattach it intact (later) from a different terminal login.
 
-Note that screen is not available anymore on modern system, especially when using the Aion cluster, you should use Tmux instead.
-
-### Pre-requisite: screen configuration file `~/.screenrc`
-
-While not mandatory, we advise you to rely on our customized configuration file for screen [`.screenrc`](https://github.com/ULHPC/dotfiles/blob/master/screen/.screenrc) available on [Github](https://github.com/ULHPC/dotfiles/blob/master/screen/.screenrc).
-
-Otherwise, simply clone the [ULHPC dotfile repository](https://github.com/ULHPC/dotfiles/) and make a symbolic link `~/.screenrc` targeting the file `screen/screenrc` of the repository.
-
 ### Screen commands
 
 You can start a screen session (_i.e._ creates a single window with a shell in it) with the `screen` command.
@@ -48,12 +40,6 @@ Once within a screen, you can invoke a screen command which consist of a "`CTRL 
 ## Persistent Terminal Sessions using Tmux
 
 Tmux is a more modern equivalent to GNU screen.
-
-### Pre-requisite: screen configuration file `~/.tmuxrc`
-
-While not mandatory, we advise you to rely on our customized configuration file for tmux [`.tmuxrc`](https://github.com/ULHPC/dotfiles/blob/master/tmux/.tmuxrc) available on [Github](https://github.com/ULHPC/dotfiles/blob/master/tmux/.tmuxrc).
-
-Otherwise, simply clone the [ULHPC dotfile repository](https://github.com/ULHPC/dotfiles/) and make a symbolic link `~/.tmuxrc` targeting the file `tmux/tmuxrc` of the repository.
 
 ### Tmux commands
 

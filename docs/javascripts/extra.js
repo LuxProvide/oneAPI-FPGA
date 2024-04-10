@@ -1,7 +1,3 @@
-/*
-   Time-stamp: <Fri 2020-07-10 14:19 svarrette>
-   Extra JS configuration of the ULHPC Technical Documentation website
- */
 
 // Arithmatex / MathJax
 // See https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#arithmatex-mathjax
