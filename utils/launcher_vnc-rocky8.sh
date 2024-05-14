@@ -3,11 +3,9 @@
 #SBATCH --ntasks=2                         # number of tasks
 #SBATCH --cpus-per-task=1                  # number of cores per task
 #SBATCH --time=40:00:00                    # time (HH:MM:SS)
-#SBATCH --account=p200117                  # project account
-#SBATCH --partition=cpu                   # partition
-#SBATCH --qos=default                         # QOS
-##SBATCH --mail-user=emmanuel.kieffer@uni.lu
-##SBATCH --mail-type=BEGIN,FAIL,END
+#SBATCH --account=lxp                      # project account
+#SBATCH --partition=cpu                    # partition
+#SBATCH --qos=default                      # QOS
 
 module load Singularity-CE/3.10.2-GCCcore-11.3.0
 

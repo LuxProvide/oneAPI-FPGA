@@ -1,4 +1,4 @@
-Bootstrap: library
+Bootstrap: docker
 From: rockylinux:8
 
 
@@ -35,8 +35,8 @@ From: rockylinux:8
 
 %labels
     Container rocky8-xfce4
-    Author hpc-team@uni.lu
+    Author emmanuel.kieffer@lxp.lu
     Version 2024-04-10
 
 %help
-    Singularity container.
+    Apptainer container.
