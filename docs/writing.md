@@ -620,10 +620,6 @@ Implicit dependencies obey to three main patterns (see [DPC++ book](https://link
          --8<-- "./code/04-matmult_ndrange/src/matmult_ndrange.cpp"
          ```
 
-* kkkkk
-```cpp linenums="1"
---8<-- "./code/04-matmult_ndrange/src/matmult_ndrange.cpp"
-```
 !!! warning "Warning on work-items group size"
     * If the attribute [[intel::max_work_group_size(Z, Y, X)]] is not specified in your kernel, the workgroup size assumes a default value depending on compilation time and runtime constraints
     * If your kernel contains a barrier, the Intel® oneAPI DPC++/C++ Compiler sets a default maximum scalarized work-group size of 128 work-items ==> without this attribute, the previous ND-Range kernel would have failed since we have a local work-group size of B x B = 256 work-items 
